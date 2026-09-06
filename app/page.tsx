@@ -3,7 +3,9 @@ export default function Home() {
     <main className="site-shell">
       <header className="site-header">
         <a className="brand" href="#top" aria-label="BuildX Capital home">
-          BUILD<span>X</span><small>CAPITAL</small>
+          <span className="brand-b">B</span>
+          <span className="brand-x">X</span>
+          <small>CAPITAL</small>
         </a>
         <p>BUILDX.CAPITAL <i aria-hidden="true">/</i> 2026</p>
       </header>
@@ -19,7 +21,7 @@ export default function Home() {
           <p><strong>Starting with</strong> energy, mobility, manufacturing, logistics, and physical infrastructure.</p>
         </div>
 
-        <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:hello@buildx.capital?subject=BuildX%20Fund%201">
+        <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:tolu@adetuyi.com?subject=BuildX%20Fund%201">
           <span>BuildX Fund 1</span>
           <i>now live</i>
           <b aria-hidden="true">↗</b>
