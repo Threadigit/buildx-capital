@@ -1,59 +1,30 @@
-const sectors = ['Energy', 'Manufacturing', 'Infrastructure'];
-
 export default function Home() {
   return (
     <main className="site-shell">
       <header className="site-header">
         <a className="brand" href="#top" aria-label="BuildX Capital home">
-          <span>BUILD</span><span className="brand-x">X</span>
-          <span className="brand-capital">CAPITAL</span>
+          BUILD<span>X</span><small>CAPITAL</small>
         </a>
-        <div className="header-meta" aria-label="Investment focus">
-          <span>PRIVATE CAPITAL</span>
-          <span className="header-divider" aria-hidden="true" />
-          <span>PRODUCTIVE ASSETS</span>
-        </div>
-        <a className="fund-link" href="#fund-one">
-          <span className="status-dot" aria-hidden="true" />
-          FUND 1
-        </a>
+        <p>BUILDX.CAPITAL <i aria-hidden="true">/</i> 2026</p>
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow"><span>01</span> OUR MANDATE</p>
-          <h1>Mobilising private capital into <em>productive</em> assets and businesses.</h1>
-          <p className="supporting-copy">Starting with energy, manufacturing, and infrastructure.</p>
-          <div className="hero-index" aria-hidden="true">BX<span>01</span></div>
+        <aside className="hero-rail" aria-hidden="true">
+          <span>BUILD WHAT MATTERS</span>
+        </aside>
+
+        <div className="statement">
+          <div className="bx-art" aria-hidden="true"><span>B</span><span>X</span></div>
+          <h1>Mobilising private capital into productive assets and businesses.</h1>
+          <p><strong>Starting with</strong> energy, mobility, manufacturing, logistics, and physical infrastructure.</p>
         </div>
 
-        <a className="fund-card" id="fund-one" href="mailto:hello@buildx.capital?subject=BuildX%20Fund%201">
-          <div className="fund-topline">
-            <span>NOW OPEN</span>
-            <span className="fund-arrow" aria-hidden="true">↗</span>
-          </div>
-          <div className="fund-title">
-            <p>BUILDX</p>
-            <h2>Fund 1</h2>
-          </div>
-          <div className="fund-footer">
-            <span>NOW LIVE</span>
-            <span>ENQUIRE</span>
-          </div>
+        <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:hello@buildx.capital?subject=BuildX%20Fund%201">
+          <span>BuildX Fund 1</span>
+          <i>now live</i>
+          <b aria-hidden="true">↗</b>
         </a>
       </section>
-
-      <footer className="sector-strip" aria-label="BuildX investment sectors">
-        <span className="strip-label">FOCUS</span>
-        <div className="sector-list">
-          {sectors.map((sector, index) => (
-            <span key={sector}>
-              <i>{String(index + 1).padStart(2, '0')}</i>{sector}
-            </span>
-          ))}
-        </div>
-        <span className="strip-mark" aria-hidden="true">BX.</span>
-      </footer>
     </main>
   );
 }

@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://buildx-capital.tadetuyi.chatgpt.site'),
   title: 'BuildX Capital — Productive Capital',
-  description: 'Mobilising private capital into productive assets and businesses, starting with energy, manufacturing, and infrastructure.',
+  description: 'Mobilising private capital into productive assets and businesses, starting with energy, mobility, manufacturing, logistics, and physical infrastructure.',
   openGraph: {
     title: 'BuildX Capital — Productive Capital',
     description: 'Mobilising private capital into productive assets and businesses.',
