@@ -21,7 +21,7 @@ export default function Home() {
           <p><strong>Starting with</strong> energy, mobility, manufacturing, logistics, and physical infrastructure.</p>
         </div>
 
-        <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:tolu@adetuyi.com?subject=BuildX%20Fund%201">
+        <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:tolu@buybuild.xyz?subject=BuildX%20Fund%201">
           <span>BuildX Fund 1</span>
           <i>now live</i>
           <b aria-hidden="true">↗</b>
