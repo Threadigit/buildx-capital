@@ -24,7 +24,7 @@ export default function Home() {
         <a className="live-panel" aria-label="BuildX Fund 1 is now live — request access" href="mailto:tolu@buybuild.xyz?subject=BuildX%20Fund%201">
           <span>BuildX Fund 1</span>
           <i>now live</i>
-          <b aria-hidden="true">↗</b>
+          <span className="live-arrow" aria-hidden="true" />
         </a>
       </section>
     </main>

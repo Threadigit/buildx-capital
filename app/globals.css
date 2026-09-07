@@ -199,15 +199,44 @@ a { color: inherit; text-decoration: none; }
 }
 
 .live-panel i { font-style: normal; font-weight: 400; opacity: .62; }
-.live-panel b { font-size: 14px; font-weight: 400; transition: transform 260ms ease; }
+.live-arrow {
+  position: relative;
+  width: 13px;
+  height: 13px;
+  flex: 0 0 13px;
+  transition: transform 260ms ease;
+}
+
+.live-arrow::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  border-top: 1.5px solid currentColor;
+  border-right: 1.5px solid currentColor;
+}
+
+.live-arrow::after {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 12px;
+  height: 1.5px;
+  background: currentColor;
+  transform: rotate(-45deg);
+  transform-origin: right center;
+}
 
 .live-panel:hover,
 .live-panel:focus-visible {
   padding-inline: 10px;
 }
 
-.live-panel:hover b,
-.live-panel:focus-visible b {
+.live-panel:hover .live-arrow,
+.live-panel:focus-visible .live-arrow {
   transform: translate(3px, -2px);
 }
 
