@@ -10,7 +10,7 @@ export default function Home() {
 
         <nav aria-label="Primary navigation">
           <a href="https://research.buildx.capital">Research</a>
-          <a href="mailto:tolu@adetuyi.com">Contact</a>
+          <a href="mailto:tolu@buildx.capital">Contact</a>
         </nav>
       </header>
 
@@ -55,7 +55,7 @@ export default function Home() {
             <address>
               <p className="section-number">03</p>
               <h2>Contact.</h2>
-              <a href="mailto:tolu@adetuyi.com">tolu@adetuyi.com</a>
+              <a href="mailto:tolu@buildx.capital">tolu@buildx.capital</a>
             </address>
           </div>
         </div>
