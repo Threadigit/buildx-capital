@@ -36,7 +36,7 @@ export default function Home() {
               Across the United States and Africa, we connect American capital with African opportunity, and African capital and talent with opportunities in the US market.
             </p>
             <p className="sectors">
-              Financial Infrastructure, Energy, mobility, manufacturing, logistics and physical infrastructure.
+              Financial infrastructure, energy, mobility, manufacturing, logistics and physical infrastructure.
             </p>
           </div>
 

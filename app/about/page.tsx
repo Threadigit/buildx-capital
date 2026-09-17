@@ -1,3 +1,26 @@
+import type { Metadata } from 'next';
+
+const aboutDescription = 'Learn about BuildX Capital, a research and advisory firm working across the United States and Africa corridor, founded by Tolu Adetuyi.';
+
+export const metadata: Metadata = {
+  title: 'About BuildX Capital',
+  description: aboutDescription,
+  alternates: { canonical: '/about' },
+  openGraph: {
+    title: 'About BuildX Capital',
+    description: aboutDescription,
+    type: 'website',
+    url: 'https://buildx.capital/about',
+    images: [{ url: '/og.png', width: 1200, height: 630, alt: 'About BuildX Capital' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About BuildX Capital',
+    description: aboutDescription,
+    images: ['/og.png'],
+  },
+};
+
 export default function About() {
   return (
     <main className="site-shell about-page">
