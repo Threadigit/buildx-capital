@@ -32,7 +32,7 @@ export default function Home() {
             </p>
             <h1>Mobilising private capital into productive assets and businesses.</h1>
             <p className="corridor">
-              Between the United States and Africa. American capital reaching African opportunity it cannot see from the outside, African capital and talent reaching the US market.
+              Across the United States and Africa, we connect American capital with African opportunity, and African capital and talent with the US market.
             </p>
           </div>
 
