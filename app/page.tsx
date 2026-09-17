@@ -52,8 +52,15 @@ export default function Home() {
               </a>
             </article>
 
-            <address>
+            <article>
               <p className="section-number">03</p>
+              <h2>Advisory.</h2>
+              <p>We help investors, founders and operators find, assess and act on opportunities across the United States and Africa.</p>
+              <a className="advisory-link" href="mailto:hello@buildx.capital">hello@buildx.capital</a>
+            </article>
+
+            <address>
+              <p className="section-number">04</p>
               <h2>Contact.</h2>
               <a href="mailto:hello@buildx.capital">hello@buildx.capital</a>
             </address>

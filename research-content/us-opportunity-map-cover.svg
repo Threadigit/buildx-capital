@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#000000"/>
+  <rect x="180" y="64" width="840" height="502" fill="none" stroke="#3A3A3A" stroke-width="1"/>
+
+  <g fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif">
+    <text x="600" y="166" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="4">US OPPORTUNITY MAP / 01</text>
+
+    <text x="600" y="294" text-anchor="middle" font-size="68" font-weight="500" letter-spacing="-3">Power &amp; Grid</text>
+    <text x="600" y="364" text-anchor="middle" font-size="68" font-weight="500" letter-spacing="-3">Infrastructure</text>
+    <text x="600" y="414" text-anchor="middle" font-size="25" fill="#B9B9B9" letter-spacing="0.3">The constraint is the opportunity.</text>
+
+    <text x="600" y="520" text-anchor="middle" font-size="18" font-weight="700" letter-spacing="4">BUILDX RESEARCH</text>
+  </g>
+</svg>
