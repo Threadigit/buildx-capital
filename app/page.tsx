@@ -36,7 +36,7 @@ export default function Home() {
             <article>
               <p className="section-number">01</p>
               <h2>How we work.</h2>
-              <p>Advisory and capital mobilisation, deal by deal. Investors participate in individual opportunities through purpose built vehicles, choosing each one rather than committing to a blind pool.</p>
+              <p>We combine original research with advisory and capital mobilisation. Research identifies where opportunity is forming; execution happens deal by deal through purpose built vehicles. Investors choose each opportunity rather than committing to a blind pool.</p>
             </article>
 
             <article>
