@@ -34,6 +34,9 @@ export default function Home() {
             <p className="corridor">
               Across the United States and Africa, we connect American capital with African opportunity, and African capital and talent with opportunities in the US market.
             </p>
+            <p className="sectors">
+              Financial Infrastructure, Energy, mobility, manufacturing, logistics and physical infrastructure.
+            </p>
           </div>
 
           <div className="practice-grid">
@@ -56,13 +59,28 @@ export default function Home() {
             <article>
               <p className="section-number">03</p>
               <h2>Advisory.</h2>
-              <p>We help investors, founders and operators find, assess and act on opportunities across the United States and Africa.</p>
-              <a className="advisory-link" href="mailto:hello@buildx.capital">hello@buildx.capital</a>
+              <p>We work with investors entering new markets, and with founders and operators raising or expanding across the corridor. Market entry and sizing. Deal sourcing and diligence. Structuring and capital mobilisation. Ongoing support after the investment is made.</p>
+              <a className="advisory-link" href="mailto:hello@buildx.capital">For advisory enquiries: hello@buildx.capital</a>
             </article>
-
           </div>
+
+          <section className="who-we-are" aria-labelledby="who-we-are-title">
+            <p className="section-number">04</p>
+            <div className="who-heading">
+              <h2 id="who-we-are-title">Who we are.</h2>
+              <p>BuildX Capital was founded by Tolu Adetuyi.</p>
+            </div>
+            <div className="who-copy">
+              <p>Tolu is co-founder and Chief Innovation Officer at Prembly, a trust infrastructure company backed by Y Combinator, operating across Nigeria, Kenya, the United States and the European Union. He is a board member across sectors including cross-border payments and mobility. He previously led growth at Moniepoint. He holds an MBA in finance from Morgan State University and a degree in computer science, and began his career as a software engineer.</p>
+              <p>He writes at <a href="https://adetuyi.com">adetuyi.com</a>.</p>
+            </div>
+          </section>
         </div>
       </section>
+
+      <footer className="site-footer">
+        <p>BuildX Capital provides advisory services. Nothing on this site is an offer to sell or a solicitation to buy any security.</p>
+      </footer>
     </main>
   );
 }
