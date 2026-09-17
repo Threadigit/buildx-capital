@@ -9,6 +9,7 @@ export default function Home() {
         </a>
 
         <nav aria-label="Primary navigation">
+          <a href="/about">About</a>
           <a href="https://research.buildx.capital">Research</a>
           <a href="mailto:hello@buildx.capital">Contact</a>
         </nav>
@@ -64,17 +65,6 @@ export default function Home() {
             </article>
           </div>
 
-          <section className="who-we-are" aria-labelledby="who-we-are-title">
-            <p className="section-number">04</p>
-            <div className="who-heading">
-              <h2 id="who-we-are-title">Who we are.</h2>
-              <p>BuildX Capital was founded by Tolu Adetuyi.</p>
-            </div>
-            <div className="who-copy">
-              <p>Tolu is co-founder and Chief Innovation Officer at Prembly, a trust infrastructure company backed by Y Combinator, operating across Nigeria, Kenya, the United States and the European Union. He is a board member across sectors including cross-border payments and mobility. He previously led growth at Moniepoint. He holds an MBA in finance from Morgan State University and a degree in computer science, and began his career as a software engineer.</p>
-              <p>He writes at <a href="https://adetuyi.com">adetuyi.com</a>.</p>
-            </div>
-          </section>
         </div>
       </section>
 
