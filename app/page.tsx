@@ -50,6 +50,7 @@ export default function Home() {
               <a className="research-link" href="https://research.buildx.capital">
                 Explore BuildX Research <span className="research-arrow" aria-hidden="true" />
               </a>
+              <a className="research-email" href="mailto:research@buildx.capital">research@buildx.capital</a>
             </article>
 
             <article>
@@ -59,11 +60,6 @@ export default function Home() {
               <a className="advisory-link" href="mailto:hello@buildx.capital">hello@buildx.capital</a>
             </article>
 
-            <address>
-              <p className="section-number">04</p>
-              <h2>Contact.</h2>
-              <a href="mailto:hello@buildx.capital">hello@buildx.capital</a>
-            </address>
           </div>
         </div>
       </section>
