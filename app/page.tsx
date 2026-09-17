@@ -25,7 +25,11 @@ export default function Home() {
           </div>
 
           <div className="statement">
-            <p className="eyebrow">United States <i aria-hidden="true" /> Africa</p>
+            <p className="eyebrow">
+              <span>United States</span>
+              <span className="corridor-mark" aria-hidden="true"><i /></span>
+              <span>Africa</span>
+            </p>
             <h1>Mobilising private capital into productive assets and businesses.</h1>
             <p className="corridor">
               Between the United States and Africa. American capital reaching African opportunity it cannot see from the outside, African capital and talent reaching the US market.
